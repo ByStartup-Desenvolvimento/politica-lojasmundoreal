@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade — App Mundo Real</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FDDF01;
+            --primary-dark: #D4BA00;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --bg-light: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --border-color: #E2E8F0;
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-dark: #F1F5F9;
+                --text-muted: #94A3B8;
+                --bg-light: #0F172A;
+                --card-bg: #1E293B;
+                --border-color: #334155;
+                --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .logo-placeholder {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 20px;
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: #1E293B;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 12px rgba(253, 223, 1, 0.3);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .last-update {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        main {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--primary);
+            padding-left: 0.75rem;
+            letter-spacing: -0.015em;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+
+        ul, ol {
+            margin-bottom: 1.25rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
+        }
+
+        .alert-box {
+            background-color: rgba(253, 223, 1, 0.1);
+            border: 1px solid rgba(253, 223, 1, 0.3);
+            border-left: 4px solid var(--primary-dark);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .alert-box h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+
+        .alert-box p {
+            margin-bottom: 0;
+            font-size: 0.975rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        .btn-link {
+            color: var(--text-dark);
+            font-weight: 600;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+
+        .btn-link:hover {
+            color: var(--primary-dark);
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+            main {
+                padding: 1.5rem;
+                border-radius: 16px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-placeholder">MR</div>
+            <h1>Política de Privacidade</h1>
+            <p class="subtitle">Aplicativo Móvel Mundo Real</p>
+            <p class="last-update">Última atualização: 27 de maio de 2026</p>
+        </header>
+
+        <main>
+            <h2>1. Apresentação e Compromisso</h2>
+            <p>
+                Nós, das <strong>Lojas Mundo Real</strong> (lojasmundoreal.com.br), levamos a sua privacidade a sério. Esta Política de Privacidade explica como coletamos, usamos, armazenamos e protegemos os seus dados pessoais ao utilizar o nosso aplicativo móvel <strong>Mundo Real</strong>.
+            </p>
+            <p>
+                Ao baixar e utilizar o nosso aplicativo, você concorda com os termos descritos nesta política, que está em total conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD)</strong> do Brasil e com as diretrizes da Google Play Store.
+            </p>
+
+            <h2>2. Quais Dados Coletamos?</h2>
+            <p>Para oferecer uma experiência de compra ágil, segura e o programa de recompensas (Realitos), precisamos coletar as seguintes informações:</p>
+            <ul>
+                <li><strong>Dados de Cadastro (Perfil):</strong> Nome completo, endereço de e-mail, número de telefone celular e CPF (necessário para a emissão de notas fiscais e faturamento).</li>
+                <li><strong>Dados de Entrega (Endereços):</strong> Endereço completo de entrega, CEP, cidade e referências de localização.</li>
+                <li><strong>Dados de Pagamento:</strong> Processamos os pagamentos por meio de parceiros seguros (como Mercado Pago). <em>Importante: nós não coletamos nem armazenamos os dados completos do seu cartão de crédito ou senha em nossos servidores.</em></li>
+                <li><strong>Dados de Navegação e Transações:</strong> Histórico de pedidos efetuados, produtos adicionados aos favoritos ou ao carrinho e o seu saldo acumulado de moedas <strong>Realitos</strong>.</li>
+                <li><strong>Dados do Dispositivo:</strong> Identificadores únicos de dispositivo (UUID), modelo do aparelho, sistema operacional e tokens de envio de notificações push (para alertar sobre o status dos seus pedidos e promoções).</li>
+            </ul>
+
+            <h2>3. Como Utilizamos os Seus Dados?</h2>
+            <p>Os dados coletados são utilizados exclusivamente para as seguintes finalidades:</p>
+            <ol>
+                <li><strong>Prestação dos Serviços:</strong> Autenticar seu login, processar pedidos, calcular frete/taxas de entrega com base no seu CEP, realizar entregas físicas e faturar compras.</li>
+                <li><strong>Programa de Fidelidade Realitos:</strong> Calcular o cashback (Realitos acumulados a cada compra), processar resgates de descontos e exibir o seu extrato de moedas no painel de perfil do aplicativo.</li>
+                <li><strong>Comunicação e Suporte:</strong> Enviar atualizações sobre o status de preparação e entrega de pedidos, responder a solicitações de suporte e enviar notificações importantes sobre a conta.</li>
+                <li><strong>Segurança:</strong> Prevenir fraudes em transações financeiras e garantir o uso legítimo do aplicativo.</li>
+            </ol>
+
+            <h2>4. Compartilhamento de Dados com Terceiros</h2>
+            <p>Seus dados pessoais não serão vendidos ou comercializados. Compartilhamos seus dados apenas com parceiros essenciais para a operação do aplicativo, sendo eles:</p>
+            <ul>
+                <li><strong>Gateway de Pagamento (Mercado Pago):</strong> Para o processamento seguro das transações de cartão de crédito, PIX ou boleto.</li>
+                <li><strong>Infraestrutura de Banco de Dados (Supabase):</strong> Para armazenamento seguro e autenticação dos dados da conta.</li>
+                <li><strong>Serviços de Logística/Entregadores:</strong> Apenas os dados estritamente necessários para a entrega física de suas mercadorias (Nome e Endereço).</li>
+            </ul>
+
+            <h2>5. Segurança e Armazenamento</h2>
+            <p>Seus dados pessoais são armazenados em servidores de nuvem altamente seguros fornecidos pela plataforma Supabase, utilizando criptografia e controles de acesso rigorosos. Mantemos seus dados apenas pelo tempo necessário para cumprir as finalidades descritas nesta política ou conforme exigido por leis fiscais e regulatórias brasileiras.</p>
+
+            <div class="alert-box">
+                <h3>6. Exclusão de Conta e Dados (Direito de Eliminação)</h3>
+                <p>
+                    Em conformidade com as regras da Google Play Store e a LGPD, garantimos a você o direito de excluir completamente sua conta e todos os dados associados a ela a qualquer momento.
+                </p>
+                <p style="margin-top: 0.5rem;">
+                    <strong>Como solicitar:</strong>
+                    Você pode solicitar a exclusão da sua conta diretamente no painel de perfil dentro do aplicativo ("Minha Conta" > "Excluir Conta") ou enviando um e-mail para <a href="mailto:suporte@lojasmundoreal.com.br" class="btn-link">suporte@lojasmundoreal.com.br</a> com o assunto "Exclusão de Dados". Processaremos sua solicitação em até 48 horas úteis, removendo permanentemente seu perfil, endereços cadastrados e histórico de saldo, mantendo apenas registros obrigatórios por lei fiscal.
+                </p>
+            </div>
+
+            <h2>7. Seus Direitos (LGPD)</h2>
+            <p>Você, como titular dos dados, possui direitos garantidos por lei:</p>
+            <ul>
+                <li>Confirmar a existência do tratamento de dados;</li>
+                <li>Acessar seus dados de forma clara;</li>
+                <li>Corrigir dados incompletos, inexatos ou desatualizados;</li>
+                <li>Revogar o consentimento e solicitar a exclusão dos dados (conforme item 6).</li>
+            </ul>
+
+            <h2>8. Alterações nesta Política</h2>
+            <p>Podemos atualizar esta Política de Privacidade de tempos em tempos. Recomendamos que você a revise periodicamente. O uso continuado do aplicativo após quaisquer alterações nesta página constituirá sua aceitação das novas práticas.</p>
+
+            <h2>9. Fale Conosco</h2>
+            <p>Se você tiver alguma dúvida sobre esta política ou sobre o tratamento de seus dados pessoais, entre em contato através do e-mail:</p>
+            <p>📧 <a href="mailto:suporte@lojasmundoreal.com.br" class="btn-link">suporte@lojasmundoreal.com.br</a></p>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Lojas Mundo Real. Todos os direitos reservados.</p>
+            <p style="margin-top: 0.25rem;"><a href="https://lojasmundoreal.com.br" class="btn-link" target="_blank">Voltar para o site principal</a></p>
+        </footer>
+    </div>
+</body>
+</html>
